@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperaturas (Rework)</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <h1>Conversor de Temperaturas (Rework)</h1>
+    </header>
+    <main>
+        <article>
+            <section class="celsius-fahrenheit">
+                <label for="celsius1">Celsius </label>
+                <input type="number" min="0" id="celsius1" placeholder="0C°">
+                =
+                <input type="number" min="0" id="fahrenheit1" placeholder="0F°">
+                <label for="fahrenheit1"> Fahrenheit</label>
+                <button onclick="click1()">Calcular</button>
+            </section>
+            <section class="fahrenheit-celsius">
+                <label for="fahrenheit2">Fahrenheit </label>
+                <input type="number" min="0" id="fahrenheit2" placeholder="0F°">
+                =
+                <input type="number" min="0" id="celsius2" placeholder="0C°">
+                <label for="celsius2"> Celsius</label>
+                <button onclick="click2()">Calcular</button>
+            </section>
+
+            <section class="celsius-kelvin">
+                <label for="celsius3">Celsius </label>
+                <input type="number" min="0" id="celsius3" placeholder="0C°">
+                =
+                <input type="number" min="0" id="kelvin1" placeholder="0K">
+                <label for="kelvin1"> Kelvin</label>
+                <button onclick="click3()">Calcular</button>
+            </section>
+            <section class="kelvin-celsius">
+                <label for="kelvin2">Kelvin </label>
+                <input type="number" min="0" id="kelvin2" placeholder="0K">
+                =
+                <input type="number" min="0" id="celsius4" placeholder="0C°">
+                <label for="celsius4"> Celsius</label>
+                <button onclick="click4()">Calcular</button>
+            </section>
+
+            <section class="kelvin-fahrenheit">
+                <label for="kelvin3">Kelvin </label>
+                <input type="number" min="0" id="kelvin3" placeholder="0K">
+                =
+                <input type="number" min="0" id="fahrenheit3" placeholder="0F°">
+                <label for="fahrenheit3"> Fahrenheit</label>
+                <button onclick="click5()">Calcular</button>
+            </section>
+            <section class="fahrenheit-kelvin">
+                <label for="fahrenheit4">Fahrenheit </label>
+                <input type="number" min="0" id="fahrenheit4" placeholder="0F°">
+                =
+                <input type="number" min="0" id="kelvin4" placeholder="0K">
+                <label for="kelvin4"> Kelvin</label>
+                <button onclick="click6()">Calcular</button>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>
+            Create by: <a href="https://github.com/arthurferreira-dev/">@arthurferreira-dev</a>
+        </p>
+
+        <p>
+            Powered by: <a href="https://github.com/">Github</a> <i class="fa-brands fa-github" id="github"></i>
+        </p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>

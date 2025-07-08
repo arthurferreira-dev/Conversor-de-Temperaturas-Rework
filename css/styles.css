@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --raleway: 'Raleway', Times, 'Times New Roman', serif;
+    --lato: 'Lato', Helvetica, Verdana, Arial, sans-serif;
+}
+
+* { /* Reset Charset */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #cacaca;
+    font-family: var(--lato);
+    font-size: 1em;
+}
+
+header {
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 12px;
+    background-color: #b1b1b1;
+    font-family: var(--raleway);
+}
+
+main {
+    background-color: #969696;
+    width: 90%;
+    margin: auto;
+    padding: 8px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: center;
+}
+
+section.celsius-fahrenheit, section.fahrenheit-celsius, section.celsius-kelvin, section.kelvin-celsius, section.kelvin-fahrenheit {
+    margin-bottom: 12px;
+}
+
+footer {
+    padding: 8px;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 1.15em;
+    background-color: #aaaaaa;
+    line-height: 1.65em;
+}
+
+#github {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+input[type=number] {
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+    font-family: var(--lato);
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: .36s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    padding: 6px;
+    text-align: center;
+    border: none;
+    background-color: #7922dd;
+    color: #fff;
+    border-radius: 8px;
+    transition-duration: .40s;
+    font-size: 16.8px;
+}
+
+button:hover {
+    background-color: #681bc1;
+}
