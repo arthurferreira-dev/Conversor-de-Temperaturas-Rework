@@ -11,4 +11,4 @@ Development Demo (dd[version])
 
 # LICENSE
 
-[Apache License 1.0](LICENSE)
+[Apache License 2.0](LICENSE)
